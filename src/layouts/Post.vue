@@ -3,16 +3,13 @@
     <Toc />
     <transition name="el-fade-in-linear">
       <main class="vuepress-blog-theme-content">
-        <el-card
-          body-style="padding: 0"
-          class="mb-4"
-        >
+        <el-card body-style="padding: 0" class="mb-3">
           <img
             v-if="$frontmatter.image"
             :src="$withBase($frontmatter.image)"
             :alt="$frontmatter.title"
             class="w-100"
-          >
+          />
           <div class="p-3">
             <h1 align="center">
               {{ $frontmatter.title }}
@@ -27,7 +24,11 @@
         </el-card>
 
         <el-card
-          v-if="$themeConfig.posts && $themeConfig.posts.prepend && $themeConfig.posts.prepend.length > 0"
+          v-if="
+            $themeConfig.posts &&
+              $themeConfig.posts.prepend &&
+              $themeConfig.posts.prepend.length > 0
+          "
           class="py-3 px-3 mb-4"
         >
           <!-- eslint-disable-next-line -->
@@ -39,36 +40,28 @@
         </el-card>
 
         <el-card
-          v-if="$themeConfig.posts && $themeConfig.posts.append && $themeConfig.posts.append.length > 0"
+          v-if="
+            $themeConfig.posts &&
+              $themeConfig.posts.append &&
+              $themeConfig.posts.append.length > 0
+          "
           class="py-3 px-3 mb-4"
         >
           <!-- eslint-disable-next-line -->
           <span v-html="$themeConfig.posts.append" />
         </el-card>
 
-        <el-card
-          v-if="featured_posts.length"
-          class="mb-4"
-        >
-          <div
-            slot="header"
-            class="clearfix"
-          >
+        <el-card v-if="featured_posts.length" class="mb-4">
+          <div slot="header" class="clearfix">
             <h5 class="m-0">
-              {{ $t('read_more') }}
+              {{ $t("read_more") }}
             </h5>
           </div>
-          <FeaturedPosts
-            class="my-4"
-            :posts="featured_posts"
-          />
+          <FeaturedPosts class="my-4" :posts="featured_posts" />
         </el-card>
 
         <el-card>
-          <div
-            slot="header"
-            class="clearfix"
-          >
+          <div slot="header" class="clearfix">
             <h5 class="m-0">
               Tags
             </h5>
@@ -87,18 +80,12 @@
 
         <ClientOnly v-if="$themeConfig.disqus">
           <el-card class="comments-area my-4">
-            <div
-              slot="header"
-              class="clearfix"
-            >
+            <div slot="header" class="clearfix">
               <h5 class="m-0">
                 {{ $t("leave_comment") }}
               </h5>
             </div>
-            <Disqus
-              :shortname="$themeConfig.disqus"
-              class="disqus-comments"
-            />
+            <Disqus :shortname="$themeConfig.disqus" class="disqus-comments" />
           </el-card>
         </ClientOnly>
       </main>
@@ -107,22 +94,24 @@
 </template>
 
 <script>
-import Toc from '@theme/components/Toc.vue'
-import PostInfo from '@theme/components/PostInfo.vue'
-import FeaturedPosts from '@theme/components/FeaturedPosts.vue'
+import Toc from "@theme/components/Toc.vue";
+import PostInfo from "@theme/components/PostInfo.vue";
+import FeaturedPosts from "@theme/components/FeaturedPosts.vue";
 
 export default {
   components: {
     Toc,
     PostInfo,
-    FeaturedPosts,
+    FeaturedPosts
   },
   computed: {
-    featured_posts () {
-      return this.$site.pages.filter(page => page.frontmatter.featured === true)
-    },
-  },
-}
+    featured_posts() {
+      return this.$site.pages.filter(
+        page => page.frontmatter.featured === true
+      );
+    }
+  }
+};
 </script>
 
 <style lang="stylus">
