@@ -17,17 +17,17 @@
   },
   "license": "MIT",
   "author": {
-    "name": "Ahmad Mostafa",
-    "email": "zoaby.am@gmail.com",
-    "url": "https://ahmadmostafa.com"
+    "name": "Liz wang",
+    "email": "erossatan@gmail.com",
+    "url": "https://www.facebook.com/liz.wang.5"
   },
   "main": "src/index.js",
   "files": [
     "src"
   ],
   "scripts": {
-    "build": "vuepress build example",
-    "dev": "nodemon --ext md,vue --watch ../ --watch . --exec vuepress dev example",
+    "build": "vuepress build lizblog",
+    "dev": "nodemon --ext md,vue --watch ../ --watch . --exec vuepress dev lizblog",
     "lint": "eslint --ext .js,.vue src",
     "prepublishOnly": "npm run build && conventional-changelog -p angular -r 2 -i CHANGELOG.md -s"
   },

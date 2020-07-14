@@ -11,7 +11,7 @@ jobs:
       MY_SECRET: ${{secrets.commit_secret}}
       USER_NAME: lizwang50
       USER_EMAIL: erossatan33@gmail.com
-      PUBLISH_DIR: lizblog/.vuepress/dist
+      PUBLISH_DIR: docs/.vuepress/dist
     runs-on: ubuntu-latest
     strategy:
       matrix:
