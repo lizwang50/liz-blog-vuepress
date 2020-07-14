@@ -3,10 +3,10 @@ module.exports = {
   base: "/liz-blog-vuepress/",
   description: "This is a blog built by VuePress",
   theme: require.resolve("../../"), // replace it with ==> theme: 'modern-blog' to use this example project as a boilerplate.
-  summaryLength: 700,
+  summaryLength: 100,
   themeConfig: {
     translations: {
-      read_more: "Keep reading!",
+      read_more: "繼續閱讀",
       read_this_post: "Read this post now!"
     },
 
@@ -17,7 +17,6 @@ module.exports = {
     // },
 
     summary: true,
-
     // Example of advanced summary usage
     /*
     summary: {
@@ -65,26 +64,19 @@ module.exports = {
     disqus: "disquswebsiteshortname", // if you want to incorporate Disqus for comments replace this value else just get rid of it
     about: {
       fullName: "Liz Wang",
-      bio: "I am a passionate Software Engineer, I love Vue.js ♥ ...",
-      image: "#"
+      bio: "I am a passionate Product Manager",
+      image: "./images/me.jpg"
     },
+
     footer: {
       contact: [
         {
           type: "github",
-          link: "https://github.com/z3by"
-        },
-        {
-          type: "instagram",
-          link: "https://instagram.com"
+          link: "https://github.com/lizwang50"
         },
         {
           type: "linkedin",
-          link: "https://linkedin.com"
-        },
-        {
-          type: "twitter",
-          link: "https://twitter.com"
+          link: "https://www.linkedin.com/in/liz-wang-6a43a31a5/"
         }
       ],
       copyright: [
@@ -93,7 +85,7 @@ module.exports = {
           link: "https://policies.google.com/privacy?hl=en-US"
         },
         {
-          text: "MIT Licensed | Copyright © 2018-present Vue.js",
+          text: "MIT Licensed | Copyright © 2020-present Vue.js",
           link: ""
         }
       ]
