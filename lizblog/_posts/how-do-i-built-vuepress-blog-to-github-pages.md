@@ -9,7 +9,7 @@ description: 如何把 VuePress 部署到 GitHub Pages 上
 author: Liz Wang
 location: Taiwan
 image: "./images/posts/vue.jpg"
-postcard_image: https://source.unsplash.com/random
+postcard_image: "./vue.jpg"
 meta:
   - name: title
     content: 如何把 VuePress 部署到 GitHub Pages 上
