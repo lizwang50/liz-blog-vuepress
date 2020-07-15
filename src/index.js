@@ -9,7 +9,7 @@ module.exports = (themeConfig, ctx) => {
         : 250
   });
 
-  themeConfig.heroImage = themeConfig.heroImage || "./images/bg_1.jpg";
+  themeConfig.heroImage = themeConfig.heroImage || "./images/bg_1.JPG";
 
   const defaultBlogPluginOptions = {
     directories: [
