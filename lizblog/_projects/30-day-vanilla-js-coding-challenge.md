@@ -36,4 +36,4 @@ languages:
 
 #### Figma
 
-![FigmaDesign](https://lizwang50.github.io/liz-blog-vuepress/images/projects/30dayChallenge.png)
+![FigmaDesign](https://lizwang50.github.io/liz-blog-vuepress/images/projects/30daysChallenge.png)
