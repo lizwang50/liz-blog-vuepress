@@ -28,6 +28,17 @@ languages:
 
 ## 內容
 
+結果為了展示我們的小成果，我們還做了一個煞有其事的 Demo Site 。
+
+又因為有設計師大大參與，因此得到了美美的設計圖 Orz 。
+
+設計圖出來後，我跟 Debby 一致認為：嗯，不要做 RWD XD 。
+
+後來結果就是這樣啦～
+
+- Wireframe design by Liz
+- Figma design by Debby
+
 ### Design
 
 #### Wireframe

@@ -1,13 +1,13 @@
 module.exports = {
-  title: "Liz Blog",
+  title: "liz blog",
   base: "/liz-blog-vuepress/",
-  description: "This is a blog built by VuePress",
+  description: "This is liz's blog built by VuePress",
   theme: require.resolve("../../"), // replace it with ==> theme: 'modern-blog' to use this example project as a boilerplate.
   summaryLength: 100,
   themeConfig: {
     translations: {
       read_more: "繼續閱讀",
-      read_this_post: "Read this post now!"
+      read_this_post: "閱讀這則文章吧 <3"
     },
 
     // cookies: {
