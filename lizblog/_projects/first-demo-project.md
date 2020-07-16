@@ -28,6 +28,12 @@ languages:
 
 ## 內容
 
-### Figma Design
+### Design
+
+#### Wireframe
 
 ![FigmaDesign](https://lizwang50.github.io/liz-blog-vuepress/images/projects/30dayChallengeWireframe.png)
+
+#### Figma
+
+![FigmaDesign](https://lizwang50.github.io/liz-blog-vuepress/images/projects/30dayChallenge.png)
