@@ -2,7 +2,7 @@
 date: "2020-07-14"
 slug: how-do-i-built-vuepress-blog-to-github-pages
 tags:
-  - blog
+  - javascript
   - vuepress
 title: 如何把 VuePress 部署到 GitHub Pages 上
 description: 如何把 VuePress 部署到 GitHub Pages 上

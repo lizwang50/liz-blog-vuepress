@@ -1,13 +1,13 @@
 module.exports = {
-  title: "liz blog",
+  title: "Liz Wang",
   base: "/liz-blog-vuepress/",
   description: "This is liz's blog built by VuePress",
   theme: require.resolve("../../"), // replace it with ==> theme: 'modern-blog' to use this example project as a boilerplate.
-  summaryLength: 100,
+  summaryLength: 50,
   themeConfig: {
     translations: {
       read_more: "繼續閱讀",
-      read_this_post: "閱讀這則文章吧 <3"
+      read_this_post: "閱讀這則文章吧!"
     },
 
     // cookies: {
@@ -18,17 +18,17 @@ module.exports = {
 
     summary: true,
     // Example of advanced summary usage
-    /*
+
     summary: {
       // Use the first two paragraphs
-      paragraphs: 2,
-
+      paragraphs: 1,
+      summaryLength: 50,
       // Let's assume that a paragraph is anything that ends with "..." and a new line
       paragraphsSeparator: "...\n",
 
       // And let's assume that we want to join back the extracted paragraphs with an empty space.
-      paragraphsJoiner: "",
-
+      // paragraphsJoiner: "",
+      paragrahpsJoiner: "<br><br>",
       // If we didn't want to use the "paragraphs" functionality, and instead we
       // want to extract a summary up until the first occurrence of a text, we'd
       // use the "stopSymbol" functionality. Let's assume that we want to get
@@ -37,12 +37,12 @@ module.exports = {
       stopSymbol: ";\n",
 
       // How about we add an emoji at the beginning of our summary?
-      prepend: "🔈",
+      // prepend: "🔈",
 
       // ... what about at the end?
-      append: "📖",
+      append: "...📖"
     },
-    */
+
     nav: [
       {
         text: "Home",
@@ -59,13 +59,14 @@ module.exports = {
     // end of each post. This is the place!
     posts: {
       prepend:
-        "Hi, 歡迎來到我的 Blog ，如果喜歡我的文章，或是對我有什麼想法，都可以在下面留言給我。",
-      append: "Hi, I hope you've <b>enjoyed</b> this post!"
+        "Hi, 歡迎來到我的 Blog ，如果喜歡我的文章，或是對我有什麼想法，都可以在下面留言給我。"
+      // append: "Hi, I hope you've <b>enjoyed</b> this post!"
     },
     disqus: "disquswebsiteshortname", // if you want to incorporate Disqus for comments replace this value else just get rid of it
     about: {
       fullName: "Liz Wang",
-      bio: "I am a passionate Product Manager",
+      bio:
+        "一個新手菜鳥軟體 PM Project/Product Manager 某天按下 F12 之後就開啟神奇的開關。",
       image: "./images/me.jpg"
     },
 

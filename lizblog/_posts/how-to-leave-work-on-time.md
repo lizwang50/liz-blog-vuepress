@@ -3,13 +3,13 @@ date: "2019-06-29"
 slug: how-to-leave-work-on-time
 tags:
   - blog
-  - vuepress
+  - work
 title: 成為準時下班的 PM 吧！高效率工作的方法
 description: 成為準時下班的 PM 吧！高效率工作的方法
 author: Liz Wang
 location: Taiwan
 image: https://lizwang50.github.io/liz-blog-vuepress/images/posts/how-to-leave-work-on-time.jpeg
-postcard_image: "./images/posts/vue.jpg"
+postcard_image: "./images/posts/how-to-leave-work-on-time.jpeg"
 meta:
   - name: title
     content: 成為準時下班的 PM 吧！高效率工作的方法
