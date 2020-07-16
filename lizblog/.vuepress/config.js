@@ -2,6 +2,45 @@ module.exports = {
   title: "Liz Wang",
   base: "/liz-blog-vuepress/",
   description: "This is liz's blog built by VuePress",
+  head: [
+    [
+      "link",
+      {
+        rel: "apple-touch-icon",
+        sizes: "180x180",
+        href: "./liz-icon/apple-touch-icon.png"
+      }
+    ],
+    [
+      "link",
+      {
+        rel: "icon",
+        type: "image/png",
+        sizes: "32x32",
+        href: "./liz-icon/favicon-32x32.png"
+      }
+    ],
+    [
+      "link",
+      {
+        rel: "icon",
+        type: "image/png",
+        sizes: "16x16",
+        href: "./liz-icon/favicon-16x16.png"
+      }
+    ],
+    ["link", { rel: "manifest", href: "./liz-icon/site.webmanifest" }],
+    ["link", { rel: "shortcut icon", href: "./liz-icon/favicon.ico" }],
+    ["meta", { name: "msapplication-TileColor", content: "#3a0839" }],
+    [
+      "meta",
+      {
+        name: "msapplication-config",
+        content: "./liz-icon/browserconfig.xml"
+      }
+    ],
+    ["meta", { name: "theme-color", content: "#ffffff" }]
+  ],
   theme: require.resolve("../../"), // replace it with ==> theme: 'modern-blog' to use this example project as a boilerplate.
   summaryLength: 50,
   themeConfig: {
