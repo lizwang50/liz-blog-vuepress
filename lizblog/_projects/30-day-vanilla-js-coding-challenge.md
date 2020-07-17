@@ -1,6 +1,6 @@
 ---
 title: 30 Day Vanilla JS Coding Challenge
-description: 30 days challenge by using vanialla js
+description: 30 Day Challenge by Using Vanialla JS
 link: https://lizwang50.github.io/JavaScript-30weeks/
 github: https://github.com/lizwang50/JavaScript-30weeks
 languages:

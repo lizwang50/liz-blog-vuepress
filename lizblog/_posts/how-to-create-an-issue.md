@@ -3,7 +3,7 @@ date: "2020-05-20"
 slug: how-to-create-an-issue
 tags:
   - blog
-  - work
+  - 工作心法
   - 新手軟體 PM 系列
 title: 新手軟體 PM 跟 Issue 的愛恨情仇
 description: 新手軟體 PM 跟 Issue 的愛恨情仇

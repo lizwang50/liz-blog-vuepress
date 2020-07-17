@@ -3,7 +3,8 @@ date: "2019-06-29"
 slug: how-to-leave-work-on-time
 tags:
   - blog
-  - work
+  - 工作心法
+  - PM
 title: 成為準時下班的 PM 吧！高效率工作的方法
 description: 成為準時下班的 PM 吧！高效率工作的方法
 author: Liz Wang

@@ -92,6 +92,11 @@ module.exports = {
         text: "Projects",
         link: "/projects/",
         icon: "el-icon-folder"
+      },
+      {
+        text: "About me",
+        link: "/about_me/",
+        icon: "el-icon-user"
       }
     ],
     // Let's say that we want to add a small message at the beginning or at the
