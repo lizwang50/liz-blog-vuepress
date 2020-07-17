@@ -1,6 +1,6 @@
 ---
-title: chiaochiaokuoillustration
-description: 這是幫學妹做的靜態網站
+title: chiao chiao kuo illustration
+description: Chiao Chiao Kuo Illustration
 link: https://chiaochiaoart.com/
 github: https://github.com/chiaochiao123/chiaochiao123.github.io
 languages:

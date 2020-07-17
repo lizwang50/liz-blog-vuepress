@@ -1,6 +1,6 @@
 ---
 title: JS Underground
-description: 這是六角的 JS 地下城闖關課程練習
+description: Hex school's JavaScript Underground Challenge Practice
 link: https://vuepress.vuejs.org/
 github: https://github.com/vuejs/vuepress/
 languages:

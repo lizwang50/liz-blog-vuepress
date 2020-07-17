@@ -106,7 +106,7 @@ module.exports = {
       fullName: "Liz Wang",
       bio:
         "一個新手菜鳥軟體 PM Project/Product Manager 某天按下 F12 之後就開啟神奇的開關。",
-      image: "./images/me.jpg"
+      image: "https://lizwang50.github.io/liz-blog-vuepress/images/me.jpg"
     },
 
     footer: {

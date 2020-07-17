@@ -9,7 +9,9 @@ module.exports = (themeConfig, ctx) => {
         : 250
   });
 
-  themeConfig.heroImage = themeConfig.heroImage || "./images/bg_1.jpg";
+  themeConfig.heroImage =
+    themeConfig.heroImage ||
+    "https://lizwang50.github.io/liz-blog-vuepress/images/bg_1.jpg";
 
   const defaultBlogPluginOptions = {
     directories: [
