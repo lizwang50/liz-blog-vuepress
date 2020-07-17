@@ -7,7 +7,7 @@ tags:
 title: 成為準時下班的 PM 吧！高效率工作的方法
 description: 成為準時下班的 PM 吧！高效率工作的方法
 author: Liz Wang
-location: Taiwan
+location: Taiwan,Taipei
 image: https://lizwang50.github.io/liz-blog-vuepress/images/posts/how-to-leave-work-on-time.jpeg
 postcard_image: https://lizwang50.github.io/liz-blog-vuepress/images/posts/how-to-leave-work-on-time.jpeg
 meta:
@@ -23,8 +23,6 @@ meta:
     content: Tranditional Chinese
 featured: true
 ---
-
-(舊文重發)
 
 PM ( Project Manager ) 總是被大大小小繁雜的事情追著跑，如果你的事情總是覺得多到不行、做都做不完，可能得重新審視一下自己的時間規劃囉！
 

@@ -1,23 +1,23 @@
 ---
 date: "2020-05-20"
-slug: how-to-leave-work-on-time
+slug: how-to-create-an-issue
 tags:
   - blog
   - work
-  - 新手軟體PM
+  - 新手軟體 PM 系列
 title: 新手軟體 PM 跟 Issue 的愛恨情仇
 description: 新手軟體 PM 跟 Issue 的愛恨情仇
 author: Liz Wang
-location: Taiwan
+location: Taiwan,Taipei
 image: https://lizwang50.github.io/liz-blog-vuepress/images/posts/how-to-leave-work-on-time.jpeg
 postcard_image: https://lizwang50.github.io/liz-blog-vuepress/images/posts/how-to-leave-work-on-time.jpeg
 meta:
   - name: title
     content: 新手軟體 PM 跟 Issue 的愛恨情仇
   - name: description
-    content: how to leave work on time
+    content: how to create an issue
   - name: keywords
-    content: Liz Wang, work, leave on time, efficiency
+    content: Liz Wang, work, issue, efficiency
   - name: author
     content: Liz Wang
   - name: language
