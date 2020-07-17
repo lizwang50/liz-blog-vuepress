@@ -1,17 +1,18 @@
 ---
 title: JS Underground
 description: Hex school's JavaScript Underground Challenge Practice
-link: https://vuepress.vuejs.org/
-github: https://github.com/vuejs/vuepress/
+link: https://lizwang50.github.io/js-underground/
+github: https://github.com/lizwang50/js-underground
 languages:
   - Sass
   - Vanilla JS
+  - Canvas
 ---
 
 ## Related Links
 
-- [30 days challenge - Demo Index](https://lizwang50.github.io/js-underground/)
-- [30 days challenge - GitHub Repo](https://github.com/lizwang50/js-underground)
+- [Demo Index](https://lizwang50.github.io/js-underground/)
+- [GitHub Repo](https://github.com/lizwang50/js-underground)
 
 ## 說明
 

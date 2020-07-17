@@ -1,11 +1,7 @@
 <template>
   <el-container>
     <el-main class="">
-      <el-row
-        :gutter="10"
-        align="center"
-        class="py-3"
-      >
+      <el-row :gutter="10" align="center" class="py-3">
         <el-col
           v-for="project in projects"
           :key="project.name"
@@ -13,43 +9,40 @@
           :md="12"
         >
           <el-card class="card project-card zoomIn">
-            <router-link :to="project.regularPath">
-              <div class="project-card-header">
-                <div class="project-icon">
-                  <i class="el-icon-folder" />
-                </div>
-                <div class="project-card--links">
-                  <el-link
-                    v-if="project.frontmatter.github"
-                    :underline="false"
-                    class="p-2"
-                    :href="project.frontmatter.github"
-                    target="_blank"
-                  >
-                    <GithubIcon />
-                  </el-link>
-
-                  <el-link
-                    v-if="project.frontmatter.link"
-                    :underline="false"
-                    class="p-2"
-                    :href="project.frontmatter.link"
-                    target="_blank"
-                  >
-                    <LinkIcon />
-                  </el-link>
-                </div>
+            <div class="project-card-header">
+              <div class="project-icon">
+                <i class="el-icon-folder" />
               </div>
+              <div class="project-card--links">
+                <el-link
+                  v-if="project.frontmatter.github"
+                  :underline="false"
+                  class="p-2"
+                  :href="project.frontmatter.github"
+                  target="_blank"
+                >
+                  <GithubIcon />
+                </el-link>
+
+                <el-link
+                  v-if="project.frontmatter.link"
+                  :underline="false"
+                  class="p-2"
+                  :href="project.frontmatter.link"
+                  target="_blank"
+                >
+                  <LinkIcon />
+                </el-link>
+              </div>
+            </div>
+            <router-link :to="project.regularPath">
               <div>
                 <h4>{{ project.frontmatter.title || project.title }}</h4>
                 <p class="project-description">
                   {{ project.frontmatter.description }}
                 </p>
                 <ul class="languages-list">
-                  <li
-                    v-for="lang in project.frontmatter.languages"
-                    :key="lang"
-                  >
+                  <li v-for="lang in project.frontmatter.languages" :key="lang">
                     {{ lang }}
                   </li>
                 </ul>
@@ -63,22 +56,19 @@
 </template>
 
 <script>
-import {
-  GithubIcon,
-  LinkIcon,
-} from 'vue-feather-icons'
+import { GithubIcon, LinkIcon } from "vue-feather-icons";
 
 export default {
   components: {
     GithubIcon,
-    LinkIcon,
+    LinkIcon
   },
   computed: {
-    projects () {
-      return this.$pagination._matchedPages
-    },
-  },
-}
+    projects() {
+      return this.$pagination._matchedPages;
+    }
+  }
+};
 </script>
 
 <style lang="stylus" scoped>

@@ -29,7 +29,7 @@ module.exports = {
         href: "./liz-icon/favicon-16x16.png"
       }
     ],
-    ["link", { rel: "manifest", href: "./liz-icon/site.webmanifest" }],
+    // ["link", { rel: "manifest", href: "./liz-icon/site.webmanifest" }],
     ["link", { rel: "shortcut icon", href: "./liz-icon/favicon.ico" }],
     ["meta", { name: "msapplication-TileColor", content: "#3a0839" }],
     [

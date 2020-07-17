@@ -6,12 +6,14 @@ github: https://github.com/lizwang50/JavaScript-30weeks
 languages:
   - Sass
   - Vanilla JS
+  - ES6
+  - Canvas
 ---
 
 ## Related Links
 
-- [30 days challenge - Demo Index](https://lizwang50.github.io/JavaScript-30weeks/)
-- [30 days challenge - GitHub Repo](https://github.com/lizwang50/JavaScript-30weeks)
+- [Demo Index](https://lizwang50.github.io/JavaScript-30weeks/)
+- [GitHub Repo](https://github.com/lizwang50/JavaScript-30weeks)
 
 ## 緣起
 
