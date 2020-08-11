@@ -1,5 +1,5 @@
 ---
-title: chiao chiao kuo illustration
+title: 技術學習
 description: Chiao Chiao Kuo Illustration
 link: https://chiaochiaoart.com/
 github: https://github.com/chiaochiao123/chiaochiao123.github.io

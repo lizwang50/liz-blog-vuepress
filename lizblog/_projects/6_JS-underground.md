@@ -1,5 +1,5 @@
 ---
-title: JS Underground
+title: 技術學習
 description: Hex school's JavaScript Underground Challenge Practice
 link: https://lizwang50.github.io/js-underground/
 github: https://github.com/lizwang50/js-underground

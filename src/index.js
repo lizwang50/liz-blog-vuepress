@@ -38,6 +38,15 @@ module.exports = (themeConfig, ctx) => {
         pagination: {
           lengthPerPage: 5
         }
+      },
+      {
+        id: "aboutme",
+        dirname: "_aboutme",
+        path: "/about_me/",
+        // layout: "Projects",
+        itemLayout: "Aboutme",
+        frontmatter: { title: "About Me" }
+        // itemPermalink: "/about_me/:slug"
       }
     ],
     frontmatters: [
